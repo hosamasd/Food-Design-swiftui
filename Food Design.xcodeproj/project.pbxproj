@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E42420D2588C48C005D6E23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42420C2588C48C005D6E23 /* Home.swift */; };
+		4E4242112588C4B5005D6E23 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4242102588C4B5005D6E23 /* ItemView.swift */; };
+		4E4242152588C4DE005D6E23 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4242142588C4DE005D6E23 /* Curve.swift */; };
+		4E4242182588C4EF005D6E23 /* ItemCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4242172588C4EF005D6E23 /* ItemCurve.swift */; };
+		4E42421C2588C508005D6E23 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E42421B2588C508005D6E23 /* Item.swift */; };
 		9F381A55257835D400ABE8C4 /* Food_DesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F381A54257835D400ABE8C4 /* Food_DesignApp.swift */; };
 		9F381A57257835D400ABE8C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F381A56257835D400ABE8C4 /* ContentView.swift */; };
 		9F381A59257835D500ABE8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F381A58257835D500ABE8C4 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E42420C2588C48C005D6E23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4E4242102588C4B5005D6E23 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		4E4242142588C4DE005D6E23 /* Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curve.swift; sourceTree = "<group>"; };
+		4E4242172588C4EF005D6E23 /* ItemCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCurve.swift; sourceTree = "<group>"; };
+		4E42421B2588C508005D6E23 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9F381A51257835D400ABE8C4 /* Food Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F381A54257835D400ABE8C4 /* Food_DesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DesignApp.swift; sourceTree = "<group>"; };
 		9F381A56257835D400ABE8C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +43,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E42420A2588C47F005D6E23 /* scens */ = {
+			isa = PBXGroup;
+			children = (
+				9F381A56257835D400ABE8C4 /* ContentView.swift */,
+				4E42420C2588C48C005D6E23 /* Home.swift */,
+			);
+			path = scens;
+			sourceTree = "<group>";
+		};
+		4E42420F2588C4A7005D6E23 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4E4242102588C4B5005D6E23 /* ItemView.swift */,
+				4E4242142588C4DE005D6E23 /* Curve.swift */,
+				4E4242172588C4EF005D6E23 /* ItemCurve.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		4E42421A2588C4FE005D6E23 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4E42421B2588C508005D6E23 /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		9F381A48257835D300ABE8C4 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				9F381A54257835D400ABE8C4 /* Food_DesignApp.swift */,
-				9F381A56257835D400ABE8C4 /* ContentView.swift */,
+				4E42421A2588C4FE005D6E23 /* model */,
+				4E42420F2588C4A7005D6E23 /* view */,
+				4E42420A2588C47F005D6E23 /* scens */,
 				9F381A58257835D500ABE8C4 /* Assets.xcassets */,
 				9F381A5D257835D500ABE8C4 /* Info.plist */,
 				9F381A5A257835D500ABE8C4 /* Preview Content */,
@@ -138,8 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E4242152588C4DE005D6E23 /* Curve.swift in Sources */,
 				9F381A57257835D400ABE8C4 /* ContentView.swift in Sources */,
+				4E42420D2588C48C005D6E23 /* Home.swift in Sources */,
 				9F381A55257835D400ABE8C4 /* Food_DesignApp.swift in Sources */,
+				4E42421C2588C508005D6E23 /* Item.swift in Sources */,
+				4E4242182588C4EF005D6E23 /* ItemCurve.swift in Sources */,
+				4E4242112588C4B5005D6E23 /* ItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
